@@ -9,6 +9,8 @@ RUN   apt update
 
 RUN apt upgrade -y
 
+RUN apt install vim -y
+
 RUN apt install python3 -y
 RUN apt-get -y install python3-pip
 
