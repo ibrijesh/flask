@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 COPY requirements.txt ./
 
-RUN   apt update
+RUN apt update
 
 RUN apt upgrade -y
 
